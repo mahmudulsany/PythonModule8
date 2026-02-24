@@ -4,8 +4,8 @@ connection= mysql.connector.connect(
     host="localhost",
     port=3306,
     database="flight_game",
-    user="root",
-    password="6517",
+    user="user_id",
+    password="password",
     autocommit=True
 )
 cursor= connection.cursor()
